@@ -12,3 +12,6 @@ A repository to scrape dndbeyond and use the data in the characters sheet in an 
     - Install with the following command: `pip install pygsheets`, but I highly recommend you check the repository linked above. You'll need to generate credentials and whatnot, and they have all the explainations there
  
  
+## Notes
+- If you try to update beyond, the bot will ask for username and password to log into your accout (currently only through twitch, more support to come).    
+ Despite the alarming claims made by the bot, the details are not used for anything nefarious, and in fact aren't even saved outside the local instance of the variables they are stored in. You can verify that by looking at the code :)
